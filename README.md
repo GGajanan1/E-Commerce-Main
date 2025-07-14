@@ -42,11 +42,8 @@ A modern, full-featured e-commerce platform built with the MERN stack. Includes 
 
 ### 2. Clone the Repository
 ```bash
-git clone https://github.com/GGajanan1/MERN-Ecommerce.git
-<<<<<<< HEAD
-cd MERN-Ecommerce
-=======
->>>>>>> 679b6ce712a780f54371dd9c2ce8bf4d9fa2db2d
+git clone https://github.com/GGajanan1/E-Commerce-Main.git
+cd E-Commerce-Main
 ```
 
 ### 3. Install Dependencies
