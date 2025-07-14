@@ -54,15 +54,8 @@ An intelligent voice-based shopping assistant powered by CrewAI agents, designed
 
 ## Usage
 
-### Basic Usage
-```python
-python voice_shopping_complete.py
-```
 
 ### Configuration
-- Agents: `src/config/agents.yaml`
-- Tasks: `src/config/tasks.yaml`
-- Tools: `src/config/tools.yaml`
 - Main config: `src/config/config.yaml`
 
 ## Database Schema
@@ -100,14 +93,3 @@ Products must follow this schema:
 - **Google Gemini**: For AI agent reasoning (multiple keys for rate limiting)
 - **MongoDB**: For product database
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make changes
-4. Test thoroughly
-5. Submit pull request
-
-## License
-
-[Add your license here]
