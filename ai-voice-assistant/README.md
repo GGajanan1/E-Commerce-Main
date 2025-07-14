@@ -43,7 +43,6 @@ An intelligent voice-based shopping assistant powered by CrewAI agents, designed
    MONGO_URI=your_mongodb_connection_string
    GEMINI_API_KEY_1=your_gemini_key_1
    GEMINI_API_KEY_2=your_gemini_key_2
-   # ... up to GEMINI_API_KEY_6
    ```
 
 ## Usage
