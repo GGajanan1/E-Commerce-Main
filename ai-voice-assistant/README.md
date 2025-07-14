@@ -100,14 +100,3 @@ Products must follow this schema:
 - **Google Gemini**: For AI agent reasoning (multiple keys for rate limiting)
 - **MongoDB**: For product database
 
-## Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make changes
-4. Test thoroughly
-5. Submit pull request
-
-## License
-
-[Add your license here]
