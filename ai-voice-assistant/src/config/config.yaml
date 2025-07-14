@@ -1,0 +1,231 @@
+# AI Voice Shopping Assistant - Main Configuration
+# =================================================
+
+# Application Information
+app_info:
+  name: "AI Voice Shopping Assistant"
+  version: "1.0.0"
+  description: "Intelligent voice-based shopping assistant for e-commerce"
+  author: "E-Commerce Team"
+  environment: "development"
+
+# CrewAI Configuration
+crew_config:
+  name: "Voice Shopping Crew"
+  description: "Specialized agents for voice-based e-commerce assistance"
+  process: "sequential"
+  max_rpm: 100
+  share_crew: false
+  manager_llm:
+    provider: "gemini"
+    model: "gemini-2.0-flash"
+    temperature: 0.3
+    max_tokens: 2000
+
+# Agent Configuration Files
+agent_configs:
+  agents_file: "agents.yaml"
+  tasks_file: "tasks.yaml"
+  tools_file: "tools.yaml"
+
+# Database Configuration
+database:
+  type: "mongodb"
+  uri: "${MONGO_URI}"
+  database_name: "ecommerce"
+  collections:
+    products: "products"
+    orders: "orders"
+    users: "users"
+  connection_settings:
+    max_pool_size: 10
+    min_pool_size: 1
+    timeout: 30000
+    retry_writes: true
+
+# Voice Processing Configuration
+voice_processing:
+  provider: "deepgram"
+  api_key: "${DEEPGRAM_API_KEY}"
+  model: "nova-2"
+  language: "en-US"
+  settings:
+    smart_format: true
+    punctuate: true
+    profanity_filter: false
+    diarize: false
+    interim_results: true
+    endpointing: 300
+    vad_events: true
+
+# AI Model Configuration
+ai_models:
+  primary:
+    provider: "gemini"
+    model: "gemini-2.0-flash"
+    api_key: "${GEMINI_API_KEY_1}"
+    temperature: 0.3
+    max_tokens: 2000
+    top_p: 0.9
+    frequency_penalty: 0.1
+    presence_penalty: 0.1
+  
+  secondary:
+    provider: "gemini"
+    model: "gemini-2.0-flash"
+    api_key: "${GEMINI_API_KEY_2}"
+    temperature: 0.2
+    max_tokens: 1500
+  
+  fallback:
+    provider: "gemini"
+    model: "gemini-2.0-flash"
+    api_key: "${GEMINI_API_KEY_3}"
+    temperature: 0.4
+    max_tokens: 1500
+
+# API Configuration
+api:
+  host: "${API_HOST:-localhost}"
+  port: "${API_PORT:-8000}"
+  debug: "${DEBUG:-false}"
+  cors_origins:
+    - "http://localhost:3000"
+    - "http://localhost:5173"
+    - "http://localhost:8080"
+  rate_limiting:
+    requests_per_minute: 100
+    burst_size: 10
+
+# Caching Configuration
+cache:
+  type: "memory"
+  ttl: 300
+  max_size: 1000
+  cleanup_interval: 600
+
+# Logging Configuration
+logging:
+  level: "${LOG_LEVEL:-INFO}"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/voice_assistant.log"
+  max_size: "10MB"
+  backup_count: 5
+  console_output: true
+
+# Security Configuration
+security:
+  secret_key: "${SECRET_KEY}"
+  jwt_expiration: 3600
+  cors_enabled: true
+  rate_limiting_enabled: true
+  input_validation: true
+  output_sanitization: true
+
+# Performance Configuration
+performance:
+  max_concurrent_requests: 10
+  request_timeout: 60
+  agent_timeout: 30
+  task_timeout: 30
+  memory_limit: "512MB"
+  cpu_limit: "1000m"
+
+# Feature Flags
+features:
+  voice_input: true
+  text_input: true
+  product_search: true
+  product_recommendations: true
+  order_tracking: true
+  real_time_chat: true
+  conversation_memory: false
+  multilingual_support: false
+  image_recognition: false
+  sentiment_analysis: true
+
+# Workflow Configuration
+workflows:
+  default_workflow: "product_search_workflow"
+  fallback_workflow: "general_inquiry_workflow"
+  timeout_workflow: "response_coordination_task"
+  
+  workflow_settings:
+    max_retries: 3
+    retry_delay: 1.0
+    parallel_execution: false
+    context_sharing: true
+
+# Monitoring and Analytics
+monitoring:
+  enabled: true
+  metrics:
+    - "request_count"
+    - "response_time"
+    - "error_rate"
+    - "user_satisfaction"
+    - "conversion_rate"
+  
+  alerting:
+    error_threshold: 5
+    response_time_threshold: 30
+    notification_email: "admin@ecommerce.com"
+
+# Integration Settings
+integrations:
+  ecommerce_backend:
+    url: "${ECOMMERCE_BACKEND_URL}"
+    timeout: 30
+    retry_attempts: 3
+  
+  frontend:
+    url: "${ECOMMERCE_FRONTEND_URL}"
+    websocket_enabled: true
+    real_time_updates: true
+  
+  payment_gateway:
+    enabled: false
+    provider: "stripe"
+    webhook_secret: "${STRIPE_WEBHOOK_SECRET}"
+  
+  analytics:
+    enabled: true
+    provider: "google_analytics"
+    tracking_id: "${GA_TRACKING_ID}"
+
+# Development Settings
+development:
+  hot_reload: true
+  debug_mode: true
+  mock_data: false
+  test_mode: false
+  profiling: false
+
+# Production Settings
+production:
+  hot_reload: false
+  debug_mode: false
+  mock_data: false
+  test_mode: false
+  profiling: true
+  ssl_enabled: true
+  compression: true
+  caching: true
+
+# Backup and Recovery
+backup:
+  enabled: true
+  interval: "daily"
+  retention_days: 30
+  backup_path: "backups/"
+  include_logs: true
+  include_cache: false
+
+# Internationalization
+i18n:
+  default_language: "en-US"
+  supported_languages:
+    - "en-US"
+    - "hi-IN"
+  fallback_language: "en-US"
+  translation_service: "google_translate"

@@ -1,0 +1,2303 @@
+[
+  {
+    "name": "Elegant Block Print Anarkali",
+    "description": "Beautiful block print anarkali perfect for festival, wedding occasions.",
+    "price": 1602,
+    "discount": 357,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Ethnic Wear",
+    "pattern": "printed",
+    "occasion": [
+      "festival",
+      "wedding",
+      "traditional"
+    ],
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "XXL",
+      "L",
+      "XL"
+    ],
+    "stock": 50,
+    "rating": 4.2,
+    "tags": [
+      "block",
+      "dress",
+      "printed",
+      "festival"
+    ],
+    "images": [
+      "https://example.com/images/block-print-anarkali-1.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Elegant Lace Cocktail Dress",
+    "description": "Beautiful lace cocktail dress perfect for party, date occasions.",
+    "price": 1846,
+    "discount": 387,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Dresses",
+    "pattern": "floral",
+    "occasion": [
+      "party",
+      "date",
+      "wedding"
+    ],
+    "colors": [
+      "red",
+      "yellow"
+    ],
+    "sizes": [
+      "M",
+      "L",
+      "XXL",
+      "XS"
+    ],
+    "stock": 64,
+    "rating": 4.0,
+    "tags": [
+      "lace",
+      "dress",
+      "floral",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/lace-cocktail-dress-2.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Designer Polka Dot Sundress",
+    "description": "Beautiful polka dot sundress perfect for casual, summer occasions.",
+    "price": 1973,
+    "discount": 388,
+    "gender": "women",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "printed",
+    "occasion": [
+      "casual",
+      "summer",
+      "picnic"
+    ],
+    "colors": [
+      "green",
+      "yellow"
+    ],
+    "sizes": [
+      "M",
+      "XXL",
+      "XL",
+      "S",
+      "L",
+      "XS"
+    ],
+    "stock": 42,
+    "rating": 4.2,
+    "tags": [
+      "polka",
+      "dress",
+      "printed",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/polka-dot-sundress-3.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Pencil Dress",
+    "description": "Beautiful pencil dress perfect for office, formal occasions.",
+    "price": 1330,
+    "discount": 127,
+    "gender": "women",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "office",
+      "formal",
+      "professional"
+    ],
+    "colors": [
+      "green"
+    ],
+    "sizes": [
+      "S",
+      "L",
+      "M",
+      "XL",
+      "XXL",
+      "XS"
+    ],
+    "stock": 74,
+    "rating": 4.1,
+    "tags": [
+      "pencil",
+      "dress",
+      "solid",
+      "office"
+    ],
+    "images": [
+      "https://example.com/images/pencil-dress-4.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Designer Polka Dot Sundress",
+    "description": "Beautiful polka dot sundress perfect for casual, summer occasions.",
+    "price": 1719,
+    "discount": 214,
+    "gender": "women",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "printed",
+    "occasion": [
+      "casual",
+      "summer",
+      "picnic"
+    ],
+    "colors": [
+      "red",
+      "black"
+    ],
+    "sizes": [
+      "XL",
+      "XXL",
+      "M",
+      "S"
+    ],
+    "stock": 41,
+    "rating": 4.2,
+    "tags": [
+      "polka",
+      "dress",
+      "printed",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/polka-dot-sundress-5.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Premium Striped Maxi Dress",
+    "description": "Beautiful striped maxi dress perfect for casual, beach occasions.",
+    "price": 2658,
+    "discount": 147,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Dresses",
+    "pattern": "striped",
+    "occasion": [
+      "casual",
+      "beach",
+      "vacation"
+    ],
+    "colors": [
+      "navy",
+      "grey"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "XS",
+      "XXL",
+      "L",
+      "XL"
+    ],
+    "stock": 42,
+    "rating": 4.1,
+    "tags": [
+      "striped",
+      "dress",
+      "striped",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/striped-maxi-dress-6.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Stylish Velvet Mini Dress",
+    "description": "Beautiful velvet mini dress perfect for party, night occasions.",
+    "price": 1071,
+    "discount": 252,
+    "gender": "women",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "solid",
+    "occasion": [
+      "party",
+      "night",
+      "club"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "sizes": [
+      "XS",
+      "L",
+      "M",
+      "XXL",
+      "XL",
+      "S"
+    ],
+    "stock": 66,
+    "rating": 4.8,
+    "tags": [
+      "velvet",
+      "dress",
+      "solid",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/velvet-mini-dress-7.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Stylish Silk Wrap Dress",
+    "description": "Beautiful silk wrap dress perfect for party, formal occasions.",
+    "price": 2182,
+    "discount": 124,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Dresses",
+    "pattern": "solid",
+    "occasion": [
+      "party",
+      "formal",
+      "dinner"
+    ],
+    "colors": [
+      "maroon"
+    ],
+    "sizes": [
+      "XS",
+      "S",
+      "XXL",
+      "M",
+      "L",
+      "XL"
+    ],
+    "stock": 65,
+    "rating": 4.3,
+    "tags": [
+      "silk",
+      "dress",
+      "solid",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/silk-wrap-dress-8.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Elegant Block Print Anarkali",
+    "description": "Beautiful block print anarkali perfect for festival, wedding occasions.",
+    "price": 903,
+    "discount": 244,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Ethnic Wear",
+    "pattern": "printed",
+    "occasion": [
+      "festival",
+      "wedding",
+      "traditional"
+    ],
+    "colors": [
+      "green",
+      "yellow"
+    ],
+    "sizes": [
+      "M",
+      "XXL",
+      "XL",
+      "L",
+      "S"
+    ],
+    "stock": 44,
+    "rating": 4.6,
+    "tags": [
+      "block",
+      "dress",
+      "printed",
+      "festival"
+    ],
+    "images": [
+      "https://example.com/images/block-print-anarkali-9.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Designer Polka Dot Sundress",
+    "description": "Beautiful polka dot sundress perfect for casual, summer occasions.",
+    "price": 1812,
+    "discount": 408,
+    "gender": "women",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "printed",
+    "occasion": [
+      "casual",
+      "summer",
+      "picnic"
+    ],
+    "colors": [
+      "multicolor"
+    ],
+    "sizes": [
+      "M",
+      "XL",
+      "XS",
+      "S",
+      "XXL",
+      "L"
+    ],
+    "stock": 69,
+    "rating": 4.1,
+    "tags": [
+      "polka",
+      "dress",
+      "printed",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/polka-dot-sundress-10.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Designer Lace Cocktail Dress",
+    "description": "Beautiful lace cocktail dress perfect for party, date occasions.",
+    "price": 1861,
+    "discount": 187,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Dresses",
+    "pattern": "floral",
+    "occasion": [
+      "party",
+      "date",
+      "wedding"
+    ],
+    "colors": [
+      "pink",
+      "green"
+    ],
+    "sizes": [
+      "L",
+      "XS",
+      "M",
+      "XXL",
+      "XL"
+    ],
+    "stock": 38,
+    "rating": 4.4,
+    "tags": [
+      "lace",
+      "dress",
+      "floral",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/lace-cocktail-dress-11.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Designer Mirror Work Dress",
+    "description": "Beautiful mirror work dress perfect for festival, party occasions.",
+    "price": 1029,
+    "discount": 77,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Ethnic Wear",
+    "pattern": "printed",
+    "occasion": [
+      "festival",
+      "party",
+      "celebration"
+    ],
+    "colors": [
+      "green",
+      "yellow"
+    ],
+    "sizes": [
+      "XS",
+      "L",
+      "XXL",
+      "M"
+    ],
+    "stock": 73,
+    "rating": 4.9,
+    "tags": [
+      "mirror",
+      "dress",
+      "printed",
+      "festival"
+    ],
+    "images": [
+      "https://example.com/images/mirror-work-dress-12.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Premium Embroidered Kurta Dress",
+    "description": "Beautiful embroidered kurta dress perfect for festival, traditional occasions.",
+    "price": 1368,
+    "discount": 349,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Ethnic Wear",
+    "pattern": "printed",
+    "occasion": [
+      "festival",
+      "traditional",
+      "celebration"
+    ],
+    "colors": [
+      "pink",
+      "purple"
+    ],
+    "sizes": [
+      "M",
+      "XS",
+      "XXL",
+      "L",
+      "S"
+    ],
+    "stock": 48,
+    "rating": 4.9,
+    "tags": [
+      "embroidered",
+      "dress",
+      "printed",
+      "festival"
+    ],
+    "images": [
+      "https://example.com/images/embroidered-kurta-dress-13.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Mirror Work Dress",
+    "description": "Beautiful mirror work dress perfect for festival, party occasions.",
+    "price": 1665,
+    "discount": 263,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Ethnic Wear",
+    "pattern": "printed",
+    "occasion": [
+      "festival",
+      "party",
+      "celebration"
+    ],
+    "colors": [
+      "green",
+      "yellow"
+    ],
+    "sizes": [
+      "S",
+      "XXL",
+      "XL",
+      "M",
+      "XS",
+      "L"
+    ],
+    "stock": 19,
+    "rating": 4.2,
+    "tags": [
+      "mirror",
+      "dress",
+      "printed",
+      "festival"
+    ],
+    "images": [
+      "https://example.com/images/mirror-work-dress-14.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Premium Block Print Anarkali",
+    "description": "Beautiful block print anarkali perfect for festival, wedding occasions.",
+    "price": 1921,
+    "discount": 497,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Ethnic Wear",
+    "pattern": "printed",
+    "occasion": [
+      "festival",
+      "wedding",
+      "traditional"
+    ],
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "sizes": [
+      "L",
+      "S",
+      "XXL",
+      "XS",
+      "M"
+    ],
+    "stock": 24,
+    "rating": 4.8,
+    "tags": [
+      "block",
+      "dress",
+      "printed",
+      "festival"
+    ],
+    "images": [
+      "https://example.com/images/block-print-anarkali-15.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Premium Polka Dot Sundress",
+    "description": "Beautiful polka dot sundress perfect for casual, summer occasions.",
+    "price": 3196,
+    "discount": 105,
+    "gender": "women",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "printed",
+    "occasion": [
+      "casual",
+      "summer",
+      "picnic"
+    ],
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "sizes": [
+      "M",
+      "XS",
+      "S",
+      "XXL"
+    ],
+    "stock": 68,
+    "rating": 4.3,
+    "tags": [
+      "polka",
+      "dress",
+      "printed",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/polka-dot-sundress-16.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Elegant Chiffon Party Dress",
+    "description": "Beautiful chiffon party dress perfect for party, celebration occasions.",
+    "price": 1355,
+    "discount": 207,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Dresses",
+    "pattern": "printed",
+    "occasion": [
+      "party",
+      "celebration",
+      "festival"
+    ],
+    "colors": [
+      "green",
+      "yellow"
+    ],
+    "sizes": [
+      "XXL",
+      "S",
+      "L",
+      "XS",
+      "M",
+      "XL"
+    ],
+    "stock": 43,
+    "rating": 4.7,
+    "tags": [
+      "chiffon",
+      "dress",
+      "printed",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/chiffon-party-dress-17.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Premium Mirror Work Dress",
+    "description": "Beautiful mirror work dress perfect for festival, party occasions.",
+    "price": 2778,
+    "discount": 330,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Ethnic Wear",
+    "pattern": "printed",
+    "occasion": [
+      "festival",
+      "party",
+      "celebration"
+    ],
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "sizes": [
+      "M",
+      "XL",
+      "S",
+      "XXL",
+      "L",
+      "XS"
+    ],
+    "stock": 75,
+    "rating": 4.0,
+    "tags": [
+      "mirror",
+      "dress",
+      "printed",
+      "festival"
+    ],
+    "images": [
+      "https://example.com/images/mirror-work-dress-18.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Designer Embroidered Kurta Dress",
+    "description": "Beautiful embroidered kurta dress perfect for festival, traditional occasions.",
+    "price": 3336,
+    "discount": 83,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Ethnic Wear",
+    "pattern": "printed",
+    "occasion": [
+      "festival",
+      "traditional",
+      "celebration"
+    ],
+    "colors": [
+      "red",
+      "black"
+    ],
+    "sizes": [
+      "XL",
+      "XS",
+      "M",
+      "S",
+      "XXL"
+    ],
+    "stock": 24,
+    "rating": 4.8,
+    "tags": [
+      "embroidered",
+      "dress",
+      "printed",
+      "festival"
+    ],
+    "images": [
+      "https://example.com/images/embroidered-kurta-dress-19.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.136451Z"
+  },
+  {
+    "name": "Designer Block Print Anarkali",
+    "description": "Beautiful block print anarkali perfect for festival, wedding occasions.",
+    "price": 2389,
+    "discount": 482,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Ethnic Wear",
+    "pattern": "printed",
+    "occasion": [
+      "festival",
+      "wedding",
+      "traditional"
+    ],
+    "colors": [
+      "pink",
+      "purple"
+    ],
+    "sizes": [
+      "S",
+      "XL",
+      "L",
+      "M",
+      "XXL",
+      "XS"
+    ],
+    "stock": 75,
+    "rating": 4.4,
+    "tags": [
+      "block",
+      "dress",
+      "printed",
+      "festival"
+    ],
+    "images": [
+      "https://example.com/images/block-print-anarkali-20.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.136451Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Stylish Cotton A-Line Dress",
+    "description": "Beautiful cotton a-line dress perfect for casual, daily occasions.",
+    "price": 2607,
+    "discount": 292,
+    "gender": "women",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "solid",
+    "occasion": [
+      "casual",
+      "daily",
+      "office"
+    ],
+    "colors": [
+      "grey"
+    ],
+    "sizes": [
+      "XS",
+      "M",
+      "S",
+      "XL"
+    ],
+    "stock": 33,
+    "rating": 4.6,
+    "tags": [
+      "cotton",
+      "dress",
+      "solid",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/cotton-a-line-dress-21.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Elegant Chiffon Party Dress",
+    "description": "Beautiful chiffon party dress perfect for party, celebration occasions.",
+    "price": 3122,
+    "discount": 168,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Dresses",
+    "pattern": "printed",
+    "occasion": [
+      "party",
+      "celebration",
+      "festival"
+    ],
+    "colors": [
+      "green",
+      "yellow"
+    ],
+    "sizes": [
+      "S",
+      "M",
+      "L",
+      "XXL",
+      "XL"
+    ],
+    "stock": 28,
+    "rating": 4.0,
+    "tags": [
+      "chiffon",
+      "dress",
+      "printed",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/chiffon-party-dress-22.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Premium Blazer Dress",
+    "description": "Beautiful blazer dress perfect for office, formal occasions.",
+    "price": 3051,
+    "discount": 401,
+    "gender": "women",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "office",
+      "formal",
+      "business"
+    ],
+    "colors": [
+      "green"
+    ],
+    "sizes": [
+      "XXL",
+      "M",
+      "L",
+      "XL",
+      "XS"
+    ],
+    "stock": 65,
+    "rating": 4.9,
+    "tags": [
+      "blazer",
+      "dress",
+      "solid",
+      "office"
+    ],
+    "images": [
+      "https://example.com/images/blazer-dress-23.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Elegant Embroidered Kurta Dress",
+    "description": "Beautiful embroidered kurta dress perfect for festival, traditional occasions.",
+    "price": 3475,
+    "discount": 494,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Ethnic Wear",
+    "pattern": "printed",
+    "occasion": [
+      "festival",
+      "traditional",
+      "celebration"
+    ],
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "sizes": [
+      "XXL",
+      "S",
+      "L",
+      "XL",
+      "M"
+    ],
+    "stock": 24,
+    "rating": 4.7,
+    "tags": [
+      "embroidered",
+      "dress",
+      "printed",
+      "festival"
+    ],
+    "images": [
+      "https://example.com/images/embroidered-kurta-dress-24.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Premium Chiffon Party Dress",
+    "description": "Beautiful chiffon party dress perfect for party, celebration occasions.",
+    "price": 889,
+    "discount": 217,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Dresses",
+    "pattern": "printed",
+    "occasion": [
+      "party",
+      "celebration",
+      "festival"
+    ],
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "sizes": [
+      "M",
+      "XS",
+      "XL",
+      "S",
+      "XXL"
+    ],
+    "stock": 80,
+    "rating": 4.4,
+    "tags": [
+      "chiffon",
+      "dress",
+      "printed",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/chiffon-party-dress-25.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Premium Cotton A-Line Dress",
+    "description": "Beautiful cotton a-line dress perfect for casual, daily occasions.",
+    "price": 3432,
+    "discount": 499,
+    "gender": "women",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "solid",
+    "occasion": [
+      "casual",
+      "daily",
+      "office"
+    ],
+    "colors": [
+      "purple"
+    ],
+    "sizes": [
+      "XXL",
+      "XL",
+      "S",
+      "L",
+      "XS"
+    ],
+    "stock": 60,
+    "rating": 4.4,
+    "tags": [
+      "cotton",
+      "dress",
+      "solid",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/cotton-a-line-dress-26.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Designer Lace Cocktail Dress",
+    "description": "Beautiful lace cocktail dress perfect for party, date occasions.",
+    "price": 2099,
+    "discount": 161,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Dresses",
+    "pattern": "floral",
+    "occasion": [
+      "party",
+      "date",
+      "wedding"
+    ],
+    "colors": [
+      "multicolor"
+    ],
+    "sizes": [
+      "XL",
+      "L",
+      "XS",
+      "S"
+    ],
+    "stock": 77,
+    "rating": 4.7,
+    "tags": [
+      "lace",
+      "dress",
+      "floral",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/lace-cocktail-dress-27.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Designer Polka Dot Sundress",
+    "description": "Beautiful polka dot sundress perfect for casual, summer occasions.",
+    "price": 2550,
+    "discount": 300,
+    "gender": "women",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "printed",
+    "occasion": [
+      "casual",
+      "summer",
+      "picnic"
+    ],
+    "colors": [
+      "pink",
+      "purple"
+    ],
+    "sizes": [
+      "XXL",
+      "S",
+      "L",
+      "M",
+      "XL",
+      "XS"
+    ],
+    "stock": 78,
+    "rating": 4.0,
+    "tags": [
+      "polka",
+      "dress",
+      "printed",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/polka-dot-sundress-28.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Designer Velvet Mini Dress",
+    "description": "Beautiful velvet mini dress perfect for party, night occasions.",
+    "price": 2769,
+    "discount": 435,
+    "gender": "women",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "solid",
+    "occasion": [
+      "party",
+      "night",
+      "club"
+    ],
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "XS",
+      "L",
+      "S",
+      "XXL"
+    ],
+    "stock": 64,
+    "rating": 4.2,
+    "tags": [
+      "velvet",
+      "dress",
+      "solid",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/velvet-mini-dress-29.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Elegant Sequin Evening Dress",
+    "description": "Beautiful sequin evening dress perfect for party, evening occasions.",
+    "price": 3057,
+    "discount": 274,
+    "gender": "women",
+    "type": "ethnicwear",
+    "category": "Dresses",
+    "pattern": "solid",
+    "occasion": [
+      "party",
+      "evening",
+      "celebration"
+    ],
+    "colors": [
+      "maroon"
+    ],
+    "sizes": [
+      "XL",
+      "M",
+      "XXL",
+      "XS",
+      "L",
+      "S"
+    ],
+    "stock": 53,
+    "rating": 4.8,
+    "tags": [
+      "sequin",
+      "dress",
+      "solid",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/sequin-evening-dress-30.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Professional Pinstripe Suit",
+    "description": "High-quality pinstripe suit ideal for office, formal events.",
+    "price": 4180,
+    "discount": 232,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "striped",
+    "occasion": [
+      "office",
+      "formal",
+      "professional"
+    ],
+    "colors": [
+      "blue",
+      "white"
+    ],
+    "sizes": [
+      "L",
+      "XXL",
+      "S",
+      "M",
+      "XXXL"
+    ],
+    "stock": 50,
+    "rating": 4.7,
+    "tags": [
+      "pinstripe",
+      "formal",
+      "striped",
+      "office"
+    ],
+    "images": [
+      "https://example.com/images/pinstripe-suit-1.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Casual Blazer",
+    "description": "High-quality casual blazer ideal for casual, college events.",
+    "price": 2487,
+    "discount": 478,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Casual",
+    "pattern": "solid",
+    "occasion": [
+      "casual",
+      "college",
+      "date"
+    ],
+    "colors": [
+      "maroon"
+    ],
+    "sizes": [
+      "S",
+      "XXXL",
+      "L",
+      "M",
+      "XL"
+    ],
+    "stock": 67,
+    "rating": 4.4,
+    "tags": [
+      "casual",
+      "formal",
+      "solid",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/casual-blazer-2.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Classic Dinner Jacket",
+    "description": "High-quality dinner jacket ideal for formal, dinner events.",
+    "price": 3879,
+    "discount": 334,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "formal",
+      "dinner",
+      "evening"
+    ],
+    "colors": [
+      "white"
+    ],
+    "sizes": [
+      "XL",
+      "XXL",
+      "M",
+      "S"
+    ],
+    "stock": 64,
+    "rating": 4.5,
+    "tags": [
+      "dinner",
+      "formal",
+      "solid",
+      "formal"
+    ],
+    "images": [
+      "https://example.com/images/dinner-jacket-3.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Casual Blazer",
+    "description": "High-quality casual blazer ideal for casual, college events.",
+    "price": 799,
+    "discount": 65,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Casual",
+    "pattern": "solid",
+    "occasion": [
+      "casual",
+      "college",
+      "date"
+    ],
+    "colors": [
+      "maroon"
+    ],
+    "sizes": [
+      "XL",
+      "L",
+      "S",
+      "M",
+      "XXXL",
+      "XXL"
+    ],
+    "stock": 47,
+    "rating": 4.0,
+    "tags": [
+      "casual",
+      "formal",
+      "solid",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/casual-blazer-4.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Premium Dinner Jacket",
+    "description": "High-quality dinner jacket ideal for formal, dinner events.",
+    "price": 4639,
+    "discount": 111,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "formal",
+      "dinner",
+      "evening"
+    ],
+    "colors": [
+      "white"
+    ],
+    "sizes": [
+      "S",
+      "XL",
+      "XXL",
+      "L",
+      "M",
+      "XXXL"
+    ],
+    "stock": 46,
+    "rating": 4.3,
+    "tags": [
+      "dinner",
+      "formal",
+      "solid",
+      "formal"
+    ],
+    "images": [
+      "https://example.com/images/dinner-jacket-5.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Professional Linen Shirt",
+    "description": "High-quality linen shirt ideal for casual, summer events.",
+    "price": 976,
+    "discount": 190,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Casual",
+    "pattern": "solid",
+    "occasion": [
+      "casual",
+      "summer",
+      "beach"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "sizes": [
+      "XL",
+      "S",
+      "XXXL",
+      "L",
+      "XXL"
+    ],
+    "stock": 18,
+    "rating": 4.1,
+    "tags": [
+      "linen",
+      "formal",
+      "solid",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/linen-shirt-6.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Premium Formal Dress Shirt",
+    "description": "High-quality formal dress shirt ideal for office, formal events.",
+    "price": 1262,
+    "discount": 190,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "office",
+      "formal",
+      "business"
+    ],
+    "colors": [
+      "red"
+    ],
+    "sizes": [
+      "XL",
+      "XXL",
+      "L",
+      "M",
+      "S"
+    ],
+    "stock": 67,
+    "rating": 4.0,
+    "tags": [
+      "formal",
+      "formal",
+      "solid",
+      "office"
+    ],
+    "images": [
+      "https://example.com/images/formal-dress-shirt-7.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Classic Dinner Jacket",
+    "description": "High-quality dinner jacket ideal for formal, dinner events.",
+    "price": 4341,
+    "discount": 83,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "formal",
+      "dinner",
+      "evening"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "sizes": [
+      "XXXL",
+      "M",
+      "XL",
+      "XXL",
+      "L",
+      "S"
+    ],
+    "stock": 80,
+    "rating": 3.9,
+    "tags": [
+      "dinner",
+      "formal",
+      "solid",
+      "formal"
+    ],
+    "images": [
+      "https://example.com/images/dinner-jacket-8.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Professional Linen Shirt",
+    "description": "High-quality linen shirt ideal for casual, summer events.",
+    "price": 1121,
+    "discount": 110,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Casual",
+    "pattern": "solid",
+    "occasion": [
+      "casual",
+      "summer",
+      "beach"
+    ],
+    "colors": [
+      "green"
+    ],
+    "sizes": [
+      "XXXL",
+      "M",
+      "XL",
+      "XXL",
+      "S"
+    ],
+    "stock": 20,
+    "rating": 4.3,
+    "tags": [
+      "linen",
+      "formal",
+      "solid",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/linen-shirt-9.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Pinstripe Suit",
+    "description": "High-quality pinstripe suit ideal for office, formal events.",
+    "price": 2322,
+    "discount": 138,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "striped",
+    "occasion": [
+      "office",
+      "formal",
+      "professional"
+    ],
+    "colors": [
+      "red",
+      "white"
+    ],
+    "sizes": [
+      "L",
+      "S",
+      "M",
+      "XL"
+    ],
+    "stock": 67,
+    "rating": 4.1,
+    "tags": [
+      "pinstripe",
+      "formal",
+      "striped",
+      "office"
+    ],
+    "images": [
+      "https://example.com/images/pinstripe-suit-10.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Classic Formal Dress Shirt",
+    "description": "High-quality formal dress shirt ideal for office, formal events.",
+    "price": 1842,
+    "discount": 324,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "office",
+      "formal",
+      "business"
+    ],
+    "colors": [
+      "green"
+    ],
+    "sizes": [
+      "S",
+      "L",
+      "XL",
+      "XXL"
+    ],
+    "stock": 49,
+    "rating": 4.2,
+    "tags": [
+      "formal",
+      "formal",
+      "solid",
+      "office"
+    ],
+    "images": [
+      "https://example.com/images/formal-dress-shirt-11.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Classic Business Suit",
+    "description": "High-quality business suit ideal for office, formal events.",
+    "price": 4770,
+    "discount": 276,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "office",
+      "formal",
+      "meeting"
+    ],
+    "colors": [
+      "green"
+    ],
+    "sizes": [
+      "XL",
+      "S",
+      "XXL",
+      "XXXL",
+      "L",
+      "M"
+    ],
+    "stock": 26,
+    "rating": 4.4,
+    "tags": [
+      "business",
+      "formal",
+      "solid",
+      "office"
+    ],
+    "images": [
+      "https://example.com/images/business-suit-12.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Formal Dress Shirt",
+    "description": "High-quality formal dress shirt ideal for office, formal events.",
+    "price": 1368,
+    "discount": 231,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "office",
+      "formal",
+      "business"
+    ],
+    "colors": [
+      "green"
+    ],
+    "sizes": [
+      "S",
+      "L",
+      "XXXL",
+      "XL",
+      "M",
+      "XXL"
+    ],
+    "stock": 47,
+    "rating": 3.9,
+    "tags": [
+      "formal",
+      "formal",
+      "solid",
+      "office"
+    ],
+    "images": [
+      "https://example.com/images/formal-dress-shirt-13.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Pinstripe Suit",
+    "description": "High-quality pinstripe suit ideal for office, formal events.",
+    "price": 1685,
+    "discount": 218,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "striped",
+    "occasion": [
+      "office",
+      "formal",
+      "professional"
+    ],
+    "colors": [
+      "black",
+      "white"
+    ],
+    "sizes": [
+      "XXXL",
+      "XL",
+      "S",
+      "XXL",
+      "L"
+    ],
+    "stock": 15,
+    "rating": 3.9,
+    "tags": [
+      "pinstripe",
+      "formal",
+      "striped",
+      "office"
+    ],
+    "images": [
+      "https://example.com/images/pinstripe-suit-14.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Pinstripe Suit",
+    "description": "High-quality pinstripe suit ideal for office, formal events.",
+    "price": 1411,
+    "discount": 75,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "striped",
+    "occasion": [
+      "office",
+      "formal",
+      "professional"
+    ],
+    "colors": [
+      "navy",
+      "grey"
+    ],
+    "sizes": [
+      "M",
+      "XXXL",
+      "XL",
+      "XXL",
+      "S",
+      "L"
+    ],
+    "stock": 24,
+    "rating": 4.9,
+    "tags": [
+      "pinstripe",
+      "formal",
+      "striped",
+      "office"
+    ],
+    "images": [
+      "https://example.com/images/pinstripe-suit-15.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Executive Formal Dress Shirt",
+    "description": "High-quality formal dress shirt ideal for office, formal events.",
+    "price": 3813,
+    "discount": 288,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "office",
+      "formal",
+      "business"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "sizes": [
+      "M",
+      "S",
+      "L",
+      "XL",
+      "XXXL",
+      "XXL"
+    ],
+    "stock": 64,
+    "rating": 3.9,
+    "tags": [
+      "formal",
+      "formal",
+      "solid",
+      "office"
+    ],
+    "images": [
+      "https://example.com/images/formal-dress-shirt-16.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Linen Shirt",
+    "description": "High-quality linen shirt ideal for casual, summer events.",
+    "price": 778,
+    "discount": 168,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Casual",
+    "pattern": "solid",
+    "occasion": [
+      "casual",
+      "summer",
+      "beach"
+    ],
+    "colors": [
+      "purple"
+    ],
+    "sizes": [
+      "XL",
+      "L",
+      "XXXL",
+      "XXL",
+      "M",
+      "S"
+    ],
+    "stock": 58,
+    "rating": 4.9,
+    "tags": [
+      "linen",
+      "formal",
+      "solid",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/linen-shirt-17.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Professional Wedding Blazer",
+    "description": "High-quality wedding blazer ideal for wedding, formal events.",
+    "price": 3379,
+    "discount": 93,
+    "gender": "men",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "wedding",
+      "formal",
+      "party"
+    ],
+    "colors": [
+      "black"
+    ],
+    "sizes": [
+      "XXXL",
+      "M",
+      "S",
+      "XL"
+    ],
+    "stock": 31,
+    "rating": 4.8,
+    "tags": [
+      "wedding",
+      "formal",
+      "solid",
+      "wedding"
+    ],
+    "images": [
+      "https://example.com/images/wedding-blazer-18.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Little Princess Tutu Dress",
+    "description": "Adorable princess tutu dress perfect for kids' party, play activities.",
+    "price": 696,
+    "discount": 196,
+    "gender": "kids",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "solid",
+    "occasion": [
+      "party",
+      "play",
+      "celebration"
+    ],
+    "colors": [
+      "green"
+    ],
+    "sizes": [
+      "4-5Y",
+      "10-11Y",
+      "8-9Y",
+      "12-13Y"
+    ],
+    "stock": 22,
+    "rating": 4.7,
+    "tags": [
+      "princess",
+      "kids",
+      "solid",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/princess-tutu-dress-kids-1.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Kids Rainbow Frock",
+    "description": "Adorable rainbow frock perfect for kids' party, play activities.",
+    "price": 930,
+    "discount": 195,
+    "gender": "kids",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "printed",
+    "occasion": [
+      "party",
+      "play",
+      "festival"
+    ],
+    "colors": [
+      "green",
+      "yellow"
+    ],
+    "sizes": [
+      "8-9Y",
+      "2-3Y",
+      "6-7Y",
+      "4-5Y",
+      "10-11Y"
+    ],
+    "stock": 77,
+    "rating": 3.9,
+    "tags": [
+      "rainbow",
+      "kids",
+      "printed",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/rainbow-frock-kids-2.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Cute Denim Dungaree Dress",
+    "description": "Adorable denim dungaree dress perfect for kids' casual, play activities.",
+    "price": 453,
+    "discount": 146,
+    "gender": "kids",
+    "type": "topwear",
+    "category": "Casual",
+    "pattern": "solid",
+    "occasion": [
+      "casual",
+      "play",
+      "outdoor"
+    ],
+    "colors": [
+      "grey"
+    ],
+    "sizes": [
+      "4-5Y",
+      "2-3Y",
+      "10-11Y",
+      "8-9Y"
+    ],
+    "stock": 47,
+    "rating": 4.4,
+    "tags": [
+      "denim",
+      "kids",
+      "solid",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/denim-dungaree-dress-kids-3.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Cute School Uniform Shirt",
+    "description": "Adorable school uniform shirt perfect for kids' school, formal activities.",
+    "price": 1205,
+    "discount": 242,
+    "gender": "kids",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "school",
+      "formal",
+      "daily"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "sizes": [
+      "2-3Y",
+      "10-11Y",
+      "4-5Y",
+      "8-9Y"
+    ],
+    "stock": 24,
+    "rating": 4.6,
+    "tags": [
+      "school",
+      "kids",
+      "solid",
+      "school"
+    ],
+    "images": [
+      "https://example.com/images/school-uniform-shirt-kids-4.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Adorable Princess Tutu Dress",
+    "description": "Adorable princess tutu dress perfect for kids' party, play activities.",
+    "price": 662,
+    "discount": 89,
+    "gender": "kids",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "solid",
+    "occasion": [
+      "party",
+      "play",
+      "celebration"
+    ],
+    "colors": [
+      "pink"
+    ],
+    "sizes": [
+      "4-5Y",
+      "2-3Y",
+      "12-13Y",
+      "8-9Y"
+    ],
+    "stock": 48,
+    "rating": 3.9,
+    "tags": [
+      "princess",
+      "kids",
+      "solid",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/princess-tutu-dress-kids-5.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "School Uniform Shirt",
+    "description": "Adorable school uniform shirt perfect for kids' school, formal activities.",
+    "price": 1285,
+    "discount": 327,
+    "gender": "kids",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "school",
+      "formal",
+      "daily"
+    ],
+    "colors": [
+      "maroon"
+    ],
+    "sizes": [
+      "6-7Y",
+      "2-3Y",
+      "4-5Y",
+      "12-13Y"
+    ],
+    "stock": 61,
+    "rating": 4.7,
+    "tags": [
+      "school",
+      "kids",
+      "solid",
+      "school"
+    ],
+    "images": [
+      "https://example.com/images/school-uniform-shirt-kids-6.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Cute Flower Girl Dress",
+    "description": "Adorable flower girl dress perfect for kids' party, wedding activities.",
+    "price": 969,
+    "discount": 113,
+    "gender": "kids",
+    "type": "ethnicwear",
+    "category": "Dresses",
+    "pattern": "floral",
+    "occasion": [
+      "party",
+      "wedding",
+      "celebration"
+    ],
+    "colors": [
+      "multicolor"
+    ],
+    "sizes": [
+      "10-11Y",
+      "4-5Y",
+      "2-3Y",
+      "8-9Y"
+    ],
+    "stock": 75,
+    "rating": 3.9,
+    "tags": [
+      "flower",
+      "kids",
+      "floral",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/flower-girl-dress-kids-7.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Cute Princess Tutu Dress",
+    "description": "Adorable princess tutu dress perfect for kids' party, play activities.",
+    "price": 1071,
+    "discount": 130,
+    "gender": "kids",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "solid",
+    "occasion": [
+      "party",
+      "play",
+      "celebration"
+    ],
+    "colors": [
+      "maroon"
+    ],
+    "sizes": [
+      "2-3Y",
+      "6-7Y",
+      "12-13Y",
+      "4-5Y"
+    ],
+    "stock": 50,
+    "rating": 4.0,
+    "tags": [
+      "princess",
+      "kids",
+      "solid",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/princess-tutu-dress-kids-8.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Princess Tutu Dress",
+    "description": "Adorable princess tutu dress perfect for kids' party, play activities.",
+    "price": 907,
+    "discount": 262,
+    "gender": "kids",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "solid",
+    "occasion": [
+      "party",
+      "play",
+      "celebration"
+    ],
+    "colors": [
+      "blue"
+    ],
+    "sizes": [
+      "12-13Y",
+      "2-3Y",
+      "10-11Y",
+      "8-9Y"
+    ],
+    "stock": 20,
+    "rating": 4.4,
+    "tags": [
+      "princess",
+      "kids",
+      "solid",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/princess-tutu-dress-kids-9.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Cute Princess Tutu Dress",
+    "description": "Adorable princess tutu dress perfect for kids' party, play activities.",
+    "price": 609,
+    "discount": 135,
+    "gender": "kids",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "solid",
+    "occasion": [
+      "party",
+      "play",
+      "celebration"
+    ],
+    "colors": [
+      "maroon"
+    ],
+    "sizes": [
+      "4-5Y",
+      "10-11Y",
+      "12-13Y"
+    ],
+    "stock": 24,
+    "rating": 4.5,
+    "tags": [
+      "princess",
+      "kids",
+      "solid",
+      "party"
+    ],
+    "images": [
+      "https://example.com/images/princess-tutu-dress-kids-10.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Little Gentleman Suit",
+    "description": "Adorable little gentleman suit perfect for kids' formal, party activities.",
+    "price": 1181,
+    "discount": 213,
+    "gender": "kids",
+    "type": "topwear",
+    "category": "Formal",
+    "pattern": "solid",
+    "occasion": [
+      "formal",
+      "party",
+      "wedding"
+    ],
+    "colors": [
+      "red"
+    ],
+    "sizes": [
+      "4-5Y",
+      "2-3Y",
+      "10-11Y"
+    ],
+    "stock": 35,
+    "rating": 4.0,
+    "tags": [
+      "little",
+      "kids",
+      "solid",
+      "formal"
+    ],
+    "images": [
+      "https://example.com/images/little-gentleman-suit-kids-11.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  },
+  {
+    "name": "Adorable Butterfly Print Dress",
+    "description": "Adorable butterfly print dress perfect for kids' casual, play activities.",
+    "price": 664,
+    "discount": 121,
+    "gender": "kids",
+    "type": "topwear",
+    "category": "Dresses",
+    "pattern": "printed",
+    "occasion": [
+      "casual",
+      "play",
+      "school"
+    ],
+    "colors": [
+      "multicolor"
+    ],
+    "sizes": [
+      "12-13Y",
+      "2-3Y",
+      "6-7Y",
+      "8-9Y"
+    ],
+    "stock": 63,
+    "rating": 3.8,
+    "tags": [
+      "butterfly",
+      "kids",
+      "printed",
+      "casual"
+    ],
+    "images": [
+      "https://example.com/images/butterfly-print-dress-kids-12.jpg"
+    ],
+    "createdAt": "2025-07-06T13:53:56.137691Z",
+    "updatedAt": "2025-07-06T13:53:56.137691Z"
+  }
+]

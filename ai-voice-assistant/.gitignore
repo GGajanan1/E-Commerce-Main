@@ -1,0 +1,265 @@
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+.env.staging
+
+# Python virtual environment
+voice_shopping_env/
+voice_shopping_venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+crew.py
+my-mcp-project/
+node_modules/
+
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing and debug files
+
+# Log files
+logs/
+*.log
+voice_shopping_log_*.txt
+voice_shopping_results_*.txt
+performance_logs/
+
+# Audio files
+*.mp3
+*.wav
+*.m4a
+*.ogg
+*.flac
+*.aac
+TVAR.mp3
+date1.mp3
+red.mp3
+gaj.mp3
+recordings/
+audio_temp/
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+
+# IDE files
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.idea/
+*.swp
+*.swo
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS files
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# Database files
+*.sql
+*.db
+*.sqlite
+*.sqlite3
+*.bson
+*.json.backup
+mongodb_exports/
+generated_products.json
+generated_products_clean.json
+category_normalization_rollback.json
+
+# Node modules (for admin/frontend)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+out/
+.next/
+.nuxt/
+
+# Jupyter notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# pytest
+.pytest_cache/
+.tox/
+.nox/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# AI/ML specific
+models/
+checkpoints/
+wandb/
+mlruns/
+.neptune/
+lightning_logs/
+
+# Flask specific
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+.pybuilder/
+target/
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pdm
+.pdm.toml
+
+# PEP 582
+__pypackages__/
+
+# Celery
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath
+*.sage.py
+
+# Spyder
+.spyderproject
+.spyproject
+
+# Rope
+.ropeproject
+
+# mkdocs
+/site
+
+# Pyre
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Voice Shopping Assistant specific
+backup/
+exports/
+api_keys/
+credentials/
+secrets/
+production.env
+staging.env
+
+# Archive files
+*.zip
+*.rar
+*.7z
+*.tar
+*.tar.gz
+*.tar.bz2
+
+# Backup files
+*.bak
+*.backup
+
+# Docker
+.dockerignore
+Dockerfile
+docker-compose.yml
+docker-compose.override.yml
+
+# Kubernetes
+k8s/
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
