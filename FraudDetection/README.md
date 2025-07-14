@@ -31,7 +31,7 @@ Then provide transaction data as JSON input or specify a JSON file path.
 
 ## Input Format
 
-The system expects transaction data in JSON format with the following structure: (use this json for testing purposes)
+The system expects transaction data in JSON format with the following structure (use this json for testing purposes) :
 ```json
 {
   "TransactionID": 2000000004,
@@ -100,9 +100,3 @@ The system returns predictions in JSON format:
 - shap
 - joblib
 - scikit-learn
-
-## Dataset Information
-
-The Fraud Detection dataset contains:
-- **Transaction Table**: 590,540 training samples with 394 features
-- **Target Variable**: `isFraud` (binary classification)
