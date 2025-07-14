@@ -1,0 +1,693 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voice Shopping Assistant</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            color: #333;
+        }
+
+        .header {
+            background: rgba(255, 255, 255, 0.95);
+            padding: 1rem 2rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+        }
+
+        .header h1 {
+            color: #4a5568;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: 700;
+        }
+
+        .container {
+            flex: 1;
+            display: flex;
+            max-width: 1400px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+            gap: 2rem;
+            width: 100%;
+        }
+
+        .voice-panel {
+            flex: 0 0 400px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+            height: fit-content;
+            position: sticky;
+            top: 2rem;
+        }
+
+        .results-panel {
+            flex: 1;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 20px;
+            padding: 2rem;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            backdrop-filter: blur(10px);
+            min-height: 600px;
+        }
+
+        .voice-controls {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+
+        .record-button {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: none;
+            background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+            color: white;
+            font-size: 1.2rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 1rem;
+        }
+
+        .record-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 35px rgba(255, 107, 107, 0.4);
+        }
+
+        .record-button.recording {
+            background: linear-gradient(135deg, #ff4757, #c44569);
+            animation: pulse 2s infinite;
+        }
+
+        .record-button.processing {
+            background: linear-gradient(135deg, #3742fa, #2f3542);
+            cursor: not-allowed;
+        }
+
+        @keyframes pulse {
+            0% { box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3); }
+            50% { box-shadow: 0 8px 35px rgba(255, 107, 107, 0.6); }
+            100% { box-shadow: 0 8px 25px rgba(255, 107, 107, 0.3); }
+        }
+
+        .status-indicator {
+            padding: 0.8rem 1.5rem;
+            border-radius: 25px;
+            font-weight: 600;
+            text-align: center;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .status-ready {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+
+        .status-recording {
+            background: #fff3cd;
+            color: #856404;
+            border: 1px solid #faeaa7;
+        }
+
+        .status-processing {
+            background: #cce7ff;
+            color: #004085;
+            border: 1px solid #99d6ff;
+        }
+
+        .status-error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+
+        .text-input-section {
+            margin-top: 2rem;
+            padding-top: 2rem;
+            border-top: 2px solid #e2e8f0;
+        }
+
+        .text-input-section h3 {
+            margin-bottom: 1rem;
+            color: #4a5568;
+        }
+
+        .search-box {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .search-input {
+            flex: 1;
+            padding: 0.8rem 1rem;
+            border: 2px solid #e2e8f0;
+            border-radius: 25px;
+            font-size: 1rem;
+            outline: none;
+            transition: border-color 0.3s ease;
+        }
+
+        .search-input:focus {
+            border-color: #667eea;
+        }
+
+        .search-button, .simulate-button {
+            padding: 0.8rem 1.5rem;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 25px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .search-button:hover, .simulate-button:hover {
+            transform: translateY(-1px);
+            box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+        }
+
+        .simulate-button {
+            background: linear-gradient(135deg, #ffa726, #ff7043);
+            width: 100%;
+            margin-top: 1rem;
+        }
+
+        .transcription-box {
+            background: #f8f9ff;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-top: 1rem;
+            min-height: 60px;
+        }
+
+        .transcription-box h4 {
+            color: #4a5568;
+            margin-bottom: 0.5rem;
+        }
+
+        .transcription-text {
+            color: #2d3748;
+            font-style: italic;
+        }
+
+        .results-header {
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+
+        .results-header h2 {
+            color: #4a5568;
+            margin-bottom: 0.5rem;
+        }
+
+        .results-summary {
+            background: #f0f7ff;
+            border: 2px solid #bfdbfe;
+            border-radius: 10px;
+            padding: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 15px;
+            padding: 1.5rem;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            border: 1px solid #e2e8f0;
+        }
+
+        .product-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+        }
+
+        .product-name {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #2d3748;
+            margin-bottom: 0.5rem;
+        }
+
+        .product-description {
+            color: #718096;
+            margin-bottom: 1rem;
+            line-height: 1.5;
+        }
+
+        .product-details {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .product-tag {
+            background: #edf2f7;
+            color: #4a5568;
+            padding: 0.3rem 0.8rem;
+            border-radius: 15px;
+            font-size: 0.85rem;
+            font-weight: 500;
+        }
+
+        .product-price {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+
+        .price-current {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #2d3748;
+        }
+
+        .price-original {
+            text-decoration: line-through;
+            color: #a0aec0;
+            font-size: 1rem;
+        }
+
+        .price-discount {
+            background: #fed7d7;
+            color: #e53e3e;
+            padding: 0.2rem 0.6rem;
+            border-radius: 10px;
+            font-size: 0.8rem;
+            font-weight: 600;
+        }
+
+        .no-results {
+            text-align: center;
+            padding: 4rem 2rem;
+            color: #718096;
+        }
+
+        .no-results h3 {
+            margin-bottom: 1rem;
+            color: #4a5568;
+        }
+
+        .error-message {
+            background: #fed7d7;
+            color: #e53e3e;
+            padding: 1rem;
+            border-radius: 10px;
+            margin: 1rem 0;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .voice-panel {
+                flex: none;
+                position: relative;
+                top: auto;
+            }
+
+            .record-button {
+                width: 100px;
+                height: 100px;
+                font-size: 1rem;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🎤 Voice Shopping Assistant</h1>
+    </div>
+
+    <div class="container">
+        <!-- Voice Control Panel -->
+        <div class="voice-panel">
+            <div class="voice-controls">
+                <button id="recordButton" class="record-button">
+                    🎤 Start
+                </button>
+                <div id="statusIndicator" class="status-indicator status-ready">
+                    Ready to listen
+                </div>
+            </div>
+
+            <div class="transcription-box">
+                <h4>Last Query:</h4>
+                <div id="transcriptionText" class="transcription-text">
+                    Click the microphone to start voice shopping...
+                </div>
+            </div>
+
+            <div class="text-input-section">
+                <h3>Or Type Your Search:</h3>
+                <div class="search-box">
+                    <input type="text" id="searchInput" class="search-input" 
+                           placeholder="e.g., red dress for party...">
+                    <button id="searchButton" class="search-button">Search</button>
+                </div>
+                <button id="simulateButton" class="simulate-button">
+                    🎲 Try Random Query
+                </button>
+            </div>
+        </div>
+
+        <!-- Results Panel -->
+        <div class="results-panel">
+            <div class="results-header">
+                <h2>Shopping Results</h2>
+                <div id="resultsSummary" class="results-summary" style="display: none;">
+                    <!-- Results summary will appear here -->
+                </div>
+            </div>
+
+            <div id="resultsContainer">
+                <div class="no-results">
+                    <h3>🛍️ Welcome to Voice Shopping!</h3>
+                    <p>Use your voice or type to search for products.</p>
+                    <p>Try saying: "I want a red dress for party" or "Show me casual shirts"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class VoiceShoppingApp {
+            constructor() {
+                this.isRecording = false;
+                this.mediaRecorder = null;
+                this.audioChunks = [];
+                
+                this.initializeElements();
+                this.bindEvents();
+                this.checkMicrophonePermission();
+            }
+
+            initializeElements() {
+                this.recordButton = document.getElementById('recordButton');
+                this.statusIndicator = document.getElementById('statusIndicator');
+                this.transcriptionText = document.getElementById('transcriptionText');
+                this.searchInput = document.getElementById('searchInput');
+                this.searchButton = document.getElementById('searchButton');
+                this.simulateButton = document.getElementById('simulateButton');
+                this.resultsSummary = document.getElementById('resultsSummary');
+                this.resultsContainer = document.getElementById('resultsContainer');
+            }
+
+            bindEvents() {
+                this.recordButton.addEventListener('click', () => this.toggleRecording());
+                this.searchButton.addEventListener('click', () => this.performTextSearch());
+                this.simulateButton.addEventListener('click', () => this.simulateVoiceQuery());
+                
+                this.searchInput.addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') {
+                        this.performTextSearch();
+                    }
+                });
+            }
+
+            async checkMicrophonePermission() {
+                try {
+                    const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                    stream.getTracks().forEach(track => track.stop());
+                    this.updateStatus('Ready to listen', 'ready');
+                } catch (error) {
+                    console.error('Microphone permission denied:', error);
+                    this.updateStatus('Microphone access denied', 'error');
+                    this.recordButton.disabled = true;
+                }
+            }
+
+            async toggleRecording() {
+                if (this.isRecording) {
+                    this.stopRecording();
+                } else {
+                    await this.startRecording();
+                }
+            }
+
+            async startRecording() {
+                try {
+                    this.audioChunks = [];
+                    const stream = await navigator.mediaDevices.getUserMedia({ 
+                        audio: {
+                            echoCancellation: true,
+                            noiseSuppression: true,
+                            sampleRate: 44100
+                        }
+                    });
+
+                    this.mediaRecorder = new MediaRecorder(stream, {
+                        mimeType: 'audio/webm;codecs=opus'
+                    });
+
+                    this.mediaRecorder.ondataavailable = (event) => {
+                        if (event.data.size > 0) {
+                            this.audioChunks.push(event.data);
+                        }
+                    };
+
+                    this.mediaRecorder.onstop = () => {
+                        this.processRecording();
+                        stream.getTracks().forEach(track => track.stop());
+                    };
+
+                    this.mediaRecorder.start();
+                    this.isRecording = true;
+                    
+                    this.recordButton.textContent = '⏹️ Stop';
+                    this.recordButton.classList.add('recording');
+                    this.updateStatus('Listening... Speak now!', 'recording');
+
+                } catch (error) {
+                    console.error('Error starting recording:', error);
+                    this.updateStatus('Failed to start recording', 'error');
+                }
+            }
+
+            stopRecording() {
+                if (this.mediaRecorder && this.isRecording) {
+                    this.mediaRecorder.stop();
+                    this.isRecording = false;
+                    
+                    this.recordButton.textContent = '⌛ Processing';
+                    this.recordButton.classList.remove('recording');
+                    this.recordButton.classList.add('processing');
+                    this.updateStatus('Processing your request...', 'processing');
+                }
+            }
+
+            async processRecording() {
+                try {
+                    const audioBlob = new Blob(this.audioChunks, { type: 'audio/webm' });
+                    
+                    const formData = new FormData();
+                    formData.append('audio', audioBlob, 'recording.webm');
+
+                    const response = await fetch('/api/process-voice', {
+                        method: 'POST',
+                        body: formData
+                    });
+
+                    const result = await response.json();
+
+                    if (result.success) {
+                        this.transcriptionText.textContent = result.transcription;
+                        this.displayResults(result.results, result.transcription);
+                        this.updateStatus('Search completed!', 'ready');
+                    } else {
+                        throw new Error(result.error || 'Processing failed');
+                    }
+
+                } catch (error) {
+                    console.error('Error processing recording:', error);
+                    this.updateStatus('Processing failed. Try again.', 'error');
+                    this.transcriptionText.textContent = 'Error: ' + error.message;
+                } finally {
+                    this.resetRecordButton();
+                }
+            }
+
+            async performTextSearch() {
+                const query = this.searchInput.value.trim();
+                if (!query) return;
+
+                this.updateStatus('Searching...', 'processing');
+                this.transcriptionText.textContent = query;
+
+                try {
+                    const response = await fetch('/api/text-search', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json'
+                        },
+                        body: JSON.stringify({ query })
+                    });
+
+                    const result = await response.json();
+
+                    if (result.success) {
+                        this.displayResults(result.results, query);
+                        this.updateStatus('Search completed!', 'ready');
+                    } else {
+                        throw new Error(result.error || 'Search failed');
+                    }
+
+                } catch (error) {
+                    console.error('Error performing text search:', error);
+                    this.updateStatus('Search failed. Try again.', 'error');
+                    this.showError('Search failed: ' + error.message);
+                }
+            }
+
+            async simulateVoiceQuery() {
+                this.updateStatus('Running simulation...', 'processing');
+
+                try {
+                    const response = await fetch('/api/simulate-voice');
+                    const result = await response.json();
+
+                    if (result.success) {
+                        this.transcriptionText.textContent = result.transcription;
+                        this.displayResults(result.results, result.transcription);
+                        this.updateStatus('Simulation completed!', 'ready');
+                    } else {
+                        throw new Error(result.error || 'Simulation failed');
+                    }
+
+                } catch (error) {
+                    console.error('Error running simulation:', error);
+                    this.updateStatus('Simulation failed', 'error');
+                    this.showError('Simulation failed: ' + error.message);
+                }
+            }
+
+            displayResults(results, query) {
+                const products = results.products || [];
+                const totalFound = results.total_found || products.length;
+
+                // Show summary
+                this.resultsSummary.style.display = 'block';
+                this.resultsSummary.innerHTML = `
+                    <strong>Query:</strong> "${query}"<br>
+                    <strong>Found:</strong> ${totalFound} products
+                    ${results.intent ? `<br><strong>Intent:</strong> ${results.intent}` : ''}
+                `;
+
+                // Display products
+                if (products.length > 0) {
+                    this.resultsContainer.innerHTML = `
+                        <div class="products-grid">
+                            ${products.map(product => this.createProductCard(product)).join('')}
+                        </div>
+                    `;
+                } else {
+                    this.resultsContainer.innerHTML = `
+                        <div class="no-results">
+                            <h3>No products found</h3>
+                            <p>Try a different search term or use voice input</p>
+                        </div>
+                    `;
+                }
+            }
+
+            createProductCard(product) {
+                const originalPrice = product.price + (product.discount || 0);
+                const discountPercent = product.discount ? Math.round((product.discount / originalPrice) * 100) : 0;
+
+                return `
+                    <div class="product-card">
+                        <div class="product-name">${product.name}</div>
+                        <div class="product-description">${product.description}</div>
+                        
+                        <div class="product-details">
+                            <span class="product-tag">${product.category}</span>
+                            <span class="product-tag">${product.gender}</span>
+                            <span class="product-tag">${product.pattern}</span>
+                            ${product.colors ? product.colors.slice(0, 2).map(color => 
+                                `<span class="product-tag">${color}</span>`
+                            ).join('') : ''}
+                        </div>
+
+                        <div class="product-price">
+                            <span class="price-current">₹${product.price}</span>
+                            ${product.discount ? `
+                                <span class="price-original">₹${originalPrice}</span>
+                                <span class="price-discount">${discountPercent}% OFF</span>
+                            ` : ''}
+                        </div>
+
+                        ${product.rating ? `
+                            <div style="margin-top: 0.5rem; color: #f6ad55;">
+                                ${'⭐'.repeat(Math.floor(product.rating))} ${product.rating}/5
+                            </div>
+                        ` : ''}
+                    </div>
+                `;
+            }
+
+            showError(message) {
+                this.resultsContainer.innerHTML = `
+                    <div class="error-message">
+                        <strong>Error:</strong> ${message}
+                    </div>
+                `;
+            }
+
+            updateStatus(message, type) {
+                this.statusIndicator.textContent = message;
+                this.statusIndicator.className = `status-indicator status-${type}`;
+            }
+
+            resetRecordButton() {
+                this.recordButton.textContent = '🎤 Start';
+                this.recordButton.classList.remove('recording', 'processing');
+            }
+        }
+
+        // Initialize the app when DOM is loaded
+        document.addEventListener('DOMContentLoaded', () => {
+            new VoiceShoppingApp();
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+crewai
+crewai_tools
+langchain-google-genai  
+langchain-anthropic     
+
+fastapi
+uvicorn
+python-multipart      
+websockets          
+
+motor                 
+pymongo              
+
+httpx                 
+aiofiles              
+
+python-dotenv         
+loguru                
+
+deepgram-sdk          # For voice-to-text conversion
+pyaudio               # For audio recording
+pydub                 # For audio processing
+speechrecognition     # Fallback speech recognition
+
+numpy                 
+scikit-learn
+sentence-transformers
