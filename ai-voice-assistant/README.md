@@ -54,15 +54,8 @@ An intelligent voice-based shopping assistant powered by CrewAI agents, designed
 
 ## Usage
 
-### Basic Usage
-```python
-python voice_shopping_complete.py
-```
 
 ### Configuration
-- Agents: `src/config/agents.yaml`
-- Tasks: `src/config/tasks.yaml`
-- Tools: `src/config/tools.yaml`
 - Main config: `src/config/config.yaml`
 
 ## Database Schema
