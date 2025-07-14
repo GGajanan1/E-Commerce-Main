@@ -45,12 +45,8 @@ An intelligent voice-based shopping assistant powered by CrewAI agents, designed
    GEMINI_API_KEY_2=your_gemini_key_2
    ```
 
-## Usage
 
 ### Configuration
-- Agents: `src/config/agents.yaml`
-- Tasks: `src/config/tasks.yaml`
-- Tools: `src/config/tools.yaml`
 - Main config: `src/config/config.yaml`
 
 
