@@ -25,24 +25,18 @@ An intelligent voice-based shopping assistant powered by CrewAI agents, designed
 
 ## Setup
 
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd ai-voice-assistant
-   ```
-
-2. **Create virtual environment**
+1. **Create virtual environment**
    ```bash
    python -m venv ai_voice_env
    source ai_voice_env/bin/activate  # On Windows: ai_voice_env\Scripts\activate
    ```
 
-3. **Install dependencies**
+1. **Install dependencies**
    ```bash
    pip install -r requirements.txt
    ```
 
-4. **Environment Variables**
+3. **Environment Variables**
    Create a `.env` file with:
    ```env
    DEEPGRAM_API_KEY=your_deepgram_key
@@ -65,28 +59,6 @@ python voice_shopping_complete.py
 - Tools: `src/config/tools.yaml`
 - Main config: `src/config/config.yaml`
 
-## Database Schema
-
-Products must follow this schema:
-```json
-{
-  "name": "string",
-  "description": "string",
-  "price": "number",
-  "discount": "number",
-  "gender": "men|women|kids",
-  "type": "topwear|bottomwear|ethnicwear|winterwear",
-  "category": "string",
-  "pattern": "string",
-  "occasion": ["array", "of", "strings"],
-  "colors": ["array", "of", "colors"],
-  "sizes": ["S", "M", "L", "XL"],
-  "stock": "number",
-  "rating": "number",
-  "tags": ["array", "of", "tags"],
-  "images": ["array", "of", "urls"]
-}
-```
 
 ## Example Queries
 
